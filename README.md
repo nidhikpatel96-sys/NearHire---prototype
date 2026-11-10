@@ -29,6 +29,14 @@ Instead of switching tabs, a recruiter enters the candidate's ZIP code to immedi
 
 NearHire was designed around a **client-side architecture** (zero external database or cloud server footprint), processing structured data directly in the browser environment.
 
+## 🛠️ Technologies & Skills Applied
+
+* **Talent Operations & Workflow Design:** High-volume recruitment workflow mapping, cross-unit candidate re-routing, and recruiter productivity optimization.
+* **ATS Configuration & Data Hygiene:** Structured relational schema design (`Stores` and `Requisitions`), error reduction, and duplicate-record auditing.
+* **Geospatial & Data Processing Logic:** Coordinate mapping (Geocoding), great-distance proximity calculations (Haversine formula), and client-side `.xlsx` parsing.
+* **Client-Side Application Logic:** Single-page application structuring (HTML/JavaScript) with zero server-side database dependencies or external API hosting risks.
+* **Data Governance & Privacy:** Air-gapped architecture enforcing strict candidate PII minimization and operational metadata isolation.
+
 | Stage | Process | Technical Mechanism |
 | :--- | :--- | :--- |
 | **1. Data Schema** | Store details and role requisitions structured across dedicated workbook tabs (`Stores`, `Requisitions`). | Relational spreadsheet data modeling |
